@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "主题",
   "main": "dist/index.js",
+  "repository": "git@github.com:Stacey1018/typedoc-theme.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "",
   "license": "ISC",
